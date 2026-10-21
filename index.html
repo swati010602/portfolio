@@ -2,82 +2,277 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Swati Rani | Java Developer</title>
-   <link rel="stylesheet" href="style.css"/> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Swati Rani's premium portfolio showcasing experience, projects, skills, resume, and contact details." />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="canonical" href="http://localhost:5501/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Swati Rani | Portfolio" />
+  <meta property="og:description" content="A premium personal portfolio for Swati Rani, built with HTML, CSS, and JavaScript." />
+  <meta property="og:url" content="http://localhost:5501/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Swati Rani | Portfolio" />
+  <meta name="twitter:description" content="A premium personal portfolio for Swati Rani, built with HTML, CSS, and JavaScript." />
+  <title>Swati Rani | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Swati Rani",
+    "jobTitle": "Computer Science Engineering Student",
+    "email": "swatirani0106@gmail.com",
+    "url": "http://localhost:5501/",
+    "sameAs": [
+      "https://linkedin.com/in/swatirani"
+    ]
+  }
+  </script>
 </head>
-<body>
-  <header class="navbar">
-    <div class="container">
-      <h1 class="logo">Swati Rani</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+<body data-page="home">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="index.html" aria-label="Swati Rani home">
+        <span class="brand-mark">SR</span>
+        <span class="brand-copy">
+          <strong>Swati Rani</strong>
+          <span>Computer Science Engineer</span>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-controls="primary-nav" aria-expanded="false" aria-label="Open navigation">
+        <span>Menu</span>
+      </button>
+      <nav class="site-nav" aria-label="Primary">
+        <div class="nav-links" id="primary-nav" data-nav data-nav-panel>
+          <a data-nav-link="home" href="index.html">Home</a>
+          <a data-nav-link="about" href="about.html">About</a>
+          <a data-nav-link="experience" href="experience.html">Experience</a>
+          <a data-nav-link="projects" href="projects.html">Projects</a>
+          <a data-nav-link="skills" href="skills.html">Skills</a>
+          <a data-nav-link="resume" href="resume.html">Resume</a>
+          <a data-nav-link="contact" href="contact.html">Contact</a>
+        </div>
       </nav>
+      <div class="nav-actions">
+        <button class="icon-button" type="button" data-theme-toggle aria-pressed="false">
+          <span aria-hidden="true">◐</span>
+          <span class="theme-label" data-theme-label>Dark</span>
+        </button>
+        <a class="button button-primary" href="resume.html">View Resume</a>
+      </div>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="container">
-      <h2>Hello, I'm <span>Swati Rani</span></h2>
-      <p>I'm a passionate Computer Science student and aspiring Java Developer, skilled in Java, SQL, and building backend systems.</p>
-      <a href="#projects" class="btn">View My Projects</a>
-    </div>
-  </section>
-
-  <section id="about" class="about section">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-        I am a Computer Science Engineering student at NIST with strong programming skills in Java, SQL, and Python. I’ve built real-time backend systems, web applications, and machine learning models. Currently looking for opportunities to contribute as a Java Developer Intern.
-      </p>
-    </div>
-  </section>
-
-  <section id="projects" class="projects section">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project-grid">
-
-        <div class="project-card">
-          <h3>Dispensary Management System</h3>
-          <p>Java Swing desktop app managing 1000+ patient records. Built with Java, JDBC, MySQL using NetBeans.</p>
+  <main id="content" class="page">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Available for internships and product teams</span>
+          <h1>Designing <span>clear</span> digital experiences with precision.</h1>
+          <p class="lead">
+            I am Swati Rani, a Computer Science Engineering student focused on Java, SQL, Python, and backend systems.
+            I build thoughtful interfaces, practical tools, and reliable software with a product-first mindset.
+          </p>
+          <div class="cta-row">
+            <a class="button button-primary" href="projects.html">Explore projects</a>
+            <a class="button button-secondary" href="contact.html">Start a conversation</a>
+          </div>
+          <div class="social-row" aria-label="Social links">
+            <a class="social-link" href="mailto:swatirani0106@gmail.com">Email</a>
+            <a class="social-link" href="https://linkedin.com/in/swatirani" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="social-link" href="https://github.com/your-username" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+          <div class="metric-row" aria-label="Profile highlights">
+            <div class="metric">
+              <strong>4</strong>
+              <span>featured projects</span>
+            </div>
+            <div class="metric">
+              <strong>1</strong>
+              <span>summer internship</span>
+            </div>
+            <div class="metric">
+              <strong>6+</strong>
+              <span>stack categories</span>
+            </div>
+            <div class="metric">
+              <strong>2025</strong>
+              <span>graduation window</span>
+            </div>
+          </div>
         </div>
 
-        <div class="project-card">
-          <h3>Web Quiz App</h3>
-          <p>Responsive quiz web app built with HTML, CSS, and JavaScript. Includes real-time score and feedback.</p>
-        </div>
-
-        <div class="project-card">
-          <h3>Email Spam Detection</h3>
-          <p>Machine learning model using Naive Bayes with ~96% accuracy. Built with Python and Scikit-learn.</p>
-        </div>
-
-        <div class="project-card">
-          <h3>Emotion Prediction from EEG</h3>
-          <p>Deep learning-based classifier (CNN, SVM) for emotion detection using EEG signals with 91% accuracy.</p>
-        </div>
-
+        <aside class="hero-panel reveal">
+          <div class="hero-frame">
+            <div class="hero-card-overlay">
+              <span class="hero-spotlight">Java • SQL • Python • Frontend</span>
+              <div class="hero-quote">Building clean systems, calm interfaces, and practical products.</div>
+            </div>
+          </div>
+          <div class="hero-meta-grid">
+            <div class="meta-card">
+              <strong>NIST Institute of Science and Technology</strong>
+              <span>BTech, Computer Science Engineering</span>
+            </div>
+            <div class="meta-card">
+              <strong>ONGC Summer Trainee</strong>
+              <span>Java Swing, JDBC, MySQL</span>
+            </div>
+          </div>
+        </aside>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact" class="contact section">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <p>Email me at <a href="mailto:swatirani0106@gmail.com">swatirani0106@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/swatirani" target="_blank">swatirani</a></p>
-    </div>
-  </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="badge">Featured work</span>
+            <h2>Selected projects with product thinking.</h2>
+          </div>
+          <p>Each project reflects a different layer of my stack, from desktop systems to machine learning workflows.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-visual"></div>
+            <div class="card-body">
+              <div class="project-meta">
+                <span class="tag">Java Swing</span>
+                <span class="tag">JDBC</span>
+                <span class="tag">MySQL</span>
+              </div>
+              <h3>Dispensary Management System</h3>
+              <p>Desktop application for managing 1,000+ patient records with structured data entry and better accessibility.</p>
+              <ul>
+                <li>Built 8+ user flows with Java Swing.</li>
+                <li>Improved data consistency with SQL-backed storage.</li>
+                <li>Designed for fast operator workflows.</li>
+              </ul>
+              <div class="card-actions">
+                <a class="button button-secondary" href="projects.html">Case study</a>
+                <a class="button button-ghost" href="contact.html">Request source</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual project-visual--3"></div>
+            <div class="card-body">
+              <div class="project-meta">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <h3>Web Quiz App</h3>
+              <p>Responsive quiz experience with live scoring, answer validation, and a simple completion summary.</p>
+              <ul>
+                <li>Structured for mobile-first interaction.</li>
+                <li>Real-time feedback reduces friction.</li>
+                <li>Easy to extend with more quiz sets.</li>
+              </ul>
+              <div class="card-actions">
+                <a class="button button-secondary" href="projects.html">Case study</a>
+                <a class="button button-ghost" href="contact.html">Request source</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual project-visual--4"></div>
+            <div class="card-body">
+              <div class="project-meta">
+                <span class="tag">Python</span>
+                <span class="tag">Scikit-learn</span>
+                <span class="tag">Naive Bayes</span>
+              </div>
+              <h3>Email Spam Detection</h3>
+              <p>Classification model that detects spam emails with around 96% accuracy using classical ML techniques.</p>
+              <ul>
+                <li>Built with dataset cleaning and feature tuning.</li>
+                <li>Balanced accuracy, precision, and recall.</li>
+                <li>Good foundation for model comparison work.</li>
+              </ul>
+              <div class="card-actions">
+                <a class="button button-secondary" href="projects.html">Case study</a>
+                <a class="button button-ghost" href="contact.html">Request source</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual project-visual--2"></div>
+            <div class="card-body">
+              <div class="project-meta">
+                <span class="tag">Python</span>
+                <span class="tag">CNN</span>
+                <span class="tag">EEG</span>
+              </div>
+              <h3>Emotion Prediction from EEG</h3>
+              <p>Deep learning and classical ML comparison for classifying emotions from EEG signals with strong accuracy.</p>
+              <ul>
+                <li>Processed 10,000+ signal samples.</li>
+                <li>Compared multiple model families.</li>
+                <li>Best model achieved 91% accuracy.</li>
+              </ul>
+              <div class="card-actions">
+                <a class="button button-secondary" href="projects.html">Case study</a>
+                <a class="button button-ghost" href="contact.html">Request source</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container content-grid">
+        <div class="content-copy section-card reveal">
+          <span class="badge">About</span>
+          <h2>Focused on dependable systems and sharp execution.</h2>
+          <p>
+            I am a final-year Computer Science Engineering student building a portfolio around backend engineering,
+            problem solving, and clean UI polish. I care about reliable software, structured code, and interfaces that
+            feel calm to use.
+          </p>
+          <div class="link-row">
+            <a class="button button-primary" href="about.html">Read more about me</a>
+            <a class="button button-secondary" href="experience.html">See experience</a>
+          </div>
+        </div>
+
+        <div class="content-aside section-card reveal">
+          <h3>Current stack</h3>
+          <ul class="stack-list">
+            <li class="tag">Java</li>
+            <li class="tag">SQL</li>
+            <li class="tag">Python</li>
+            <li class="tag">HTML</li>
+            <li class="tag">CSS</li>
+            <li class="tag">JavaScript</li>
+            <li class="tag">JDBC</li>
+            <li class="tag">MySQL</li>
+            <li class="tag">Git</li>
+            <li class="tag">NetBeans</li>
+            <li class="tag">Machine Learning</li>
+          </ul>
+          <p class="muted">I prefer a small, coherent toolset with strong fundamentals over unnecessary complexity.</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer">
-    <div class="container">
-      <p>&copy; 2025 Swati Rani. All rights reserved.</p>
+    <div class="container footer-inner">
+      <p>&copy; <span data-year></span> Swati Rani. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+        <a href="projects.html">Projects</a>
+      </div>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:5501/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5501/about.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5501/experience.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5501/projects.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5501/skills.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5501/resume.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5501/contact.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5501/404.html</loc>
+  </url>
+</urlset>
